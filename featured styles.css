@@ -6,10 +6,10 @@ flex-direction: row;
 align-items: flex-start;
 padding: 107px 140px;
 
-width: 1440px;
+width: 1160px;
 height: 352px;
 
-background: #FFFFFF;
+background-color: #FFFFFF;
 
 /* Inside auto layout */
 flex: none;
@@ -28,7 +28,7 @@ align-items: flex-start;
 padding: 0px 40px 0px 0px;
 gap: 10px;
 
-width: 380px;
+width: 580px;
 height: 338px;
 
 
