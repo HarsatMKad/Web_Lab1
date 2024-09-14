@@ -6,8 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="head styles.css"/>
     <link rel="stylesheet" type="text/css" href="hero styles.css"/>
+    <link rel="stylesheet" type="text/css" href="featured styles.css"/>
+    <link rel="stylesheet" type="text/css" href="discovered styles.css"/>
+    <link rel="stylesheet" type="text/css" href="share section styles.css"/>
 </head>
-<body>    
+<body class="home_page">    
     <div id="header_section">
         <div id="header_element_row">
             <div id="header_logo">
@@ -37,12 +40,12 @@
         </div>
     </div>
 
-
-
     <div class="hero_section">
+        <div class="background_blind"></div>
+
         <div id="hero_content_container">
             <div class="hero_text">
-                <div class="hero_title">Let’s talk about your next trip!</div>
+                <div class="hero_title_purple">Let’s talk <span class="hero_title"> about your next trip!</span></div>
                 <div class="hero_discription">Share your favorite travel destination and we will feature it in our next blog!</div>
             </div>
 
@@ -62,8 +65,95 @@
             </div>
         </div>
     </div>
-    <div class="background_image"></div>
-    <div class="background_blind"></div>
+
+
+    <div class="featured_destination_section">
+        <div class="featured_image_container">
+            <img src="Images/Feature_pic/Featured Image.jpg">
+        </div>
+        <div class="featured_destination_blurb">
+            <div class="featured_destination_copywriting">
+                <div class="featured_text_category">Featured Destination</div>
+                <div class="featured_text_title">Our swiss adventure blog</div>
+                <div class="featured_text_description">Visiting the swiss alps? Want to know the requirements on travelling to Switzerland during the pandemic? Our blog might help! </div>
+            </div>
+
+            <div class="featured_destination">
+                <div class="highlights_play">
+                    <img class="highlights_circle" src="Images/Featured play/Ellipse 13.svg">
+                    <img class="highlights_poligon" src="Images/Featured play/Polygon 1.svg">
+                </div>
+                <div class="featured_destination_text">Watch Now</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="discovered_section">
+        <div class="discovered_header">
+            <div class="featured_text_category" id="discovered_subtext_center">Join our adventures</div>
+            <div class="featured_text_title" id="discovered_title_center">Discover the world with us</div>
+        </div>
+
+        <div class="location_cards_row">
+            <div class="card_frame">
+                <div class="card_unit">
+                    <img src="Images/Cards img/Iceland card image.jpg">
+                    <div class="card_title">
+                        <div class="card_top_title">Iceland</div>
+                        <div class="card_description">Discover</div>
+                    </div>
+                </div>
+                <div class="card_unit">
+                    <img src="Images/Cards img/Italy card image.jpg">
+                    <div class="card_title">
+                        <div class="card_top_title">Italy</div>
+                        <div class="card_description">Discover</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_frame">
+                <div class="card_unit">
+                    <img src="Images/Cards img/Dubai card image.jpg">
+                    <div class="card_title">
+                        <div class="card_top_title">Dubai</div>
+                        <div class="card_description">Discover</div>
+                    </div>
+                </div>
+                <div class="card_unit">
+                    <img src="Images/Cards img/Patagonia Card Image.jpg">
+                    <div class="card_title">
+                        <div class="card_top_title">Patagonia</div>
+                        <div class="card_description">Discover</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="share_travels_section">
+        <div class="share_travels_form">
+            <div class="form_head">
+                <div class="form_title_subtext">Let’s build a community</div>
+                <div class="form_title">Join our next destination</div>
+            </div>
+
+            <div class="form">
+                <div class="form_text">
+                    <div class="shate_your_travels">Share your travels</div>
+                    <div class="suggest_travel">Suggest a new travel destination that you want to see and we will feature it in our blog.</div>
+                </div>
+
+
+                
+
+
+                <div class="form_submit_button">
+                    <div class="submit_text">Submit</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 

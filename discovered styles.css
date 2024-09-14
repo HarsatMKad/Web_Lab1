@@ -1,0 +1,182 @@
+.discovered_section{
+    /* Discover the world section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 24px 119px 70px;
+gap: 48px;
+
+width: 1440px;
+height: 621px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.discovered_header{
+    /* Discover the world header */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 1202px;
+height: 69px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#discovered_subtext_center{
+/* Discover the world subtext */
+
+width: 1202px;
+height: 21px;
+
+text-align: center;
+}
+
+#discovered_title_center{
+    /* Discover the world title */
+
+width: 1202px;
+height: 40px;
+
+text-align: center;
+}
+
+.location_cards_row{
+    /* Location cards row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 1202px;
+height: 410px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.card_frame{
+/* Frame 749 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px;
+
+width: 601px;
+height: 410px;
+
+
+/* Inside auto layout */
+flex: none;
+flex-grow: 1;
+}
+
+.card_unit{
+    /* Iceland card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+width: 300.5px;
+height: 410px;
+
+
+/* Inside auto layout */
+flex: none;
+flex-grow: 1;
+}
+
+.card_title{
+    /* Card Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 268.5px;
+height: 50.95px;
+
+
+/* Inside auto layout */
+flex: none;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.card_top_title{
+    /* Iceland */
+
+width: 268.5px;
+height: 36px;
+
+font-family: 'Changa One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+text-align: center;
+
+color: #434343;
+
+
+/* Inside auto layout */
+flex: none;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.card_description{
+/* Discover */
+
+width: 268.5px;
+height: 14.95px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #8A53FF;
+
+
+/* Inside auto layout */
+flex: none;
+align-self: stretch;
+flex-grow: 0;
+}
