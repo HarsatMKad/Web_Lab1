@@ -1,4 +1,4 @@
-body{
+body {
     min-width: 1000px;
 }
 
@@ -73,7 +73,7 @@ body{
     /* Inside auto layout */
     order: 1;
     flex-grow: 0;
-    
+
 }
 
 .header_links {
@@ -131,6 +131,6 @@ body{
     color: #8A53FF;
 }
 
-.header_decor{
+.header_decor {
     text-decoration: none;
 }
