@@ -1,0 +1,168 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+*{
+    font-family: 'Roboto';
+}
+
+button{
+    border:#434343;
+}
+
+.home_page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: relative;
+    width: auto;
+    height: 100%;
+
+    background: #FFFFFF;
+}
+
+.header_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 120px;
+    gap: 10px;
+
+    width: 1202px;
+    height: 90px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.header_element_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 640px;
+
+    width: 1202px;
+    height: 64px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.header_menu_options {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+
+    margin: 0 auto;
+    width: 457px;
+    height: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.header_links {
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 359px;
+    height: 19px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header_logo {
+    margin: 0 auto;
+    width: 100px;
+    height: 64px;
+
+    cursor: pointer;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.head_links {
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #495367;
+}
+
+.head_links_home {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #8A53FF;
+}
+
+.separator {
+    width: 23.6px;
+    height: 0px;
+
+    border: 1px solid #EEEEEE;
+    transform: rotate(90deg);
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.header_search_icon {
+    width: 20px;
+    height: 20px;
+
+    cursor: pointer;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.header_profile {
+    width: 24px;
+    height: 24px;
+
+    cursor: pointer;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+#head_account_icon {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -17px;
+}
+
+.header_decor{
+    text-decoration: none;
+}

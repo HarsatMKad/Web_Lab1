@@ -1,0 +1,140 @@
+.discovered_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 120px 70px;
+    gap: 48px;
+
+    width: 1200px;
+    height: 621px;
+
+    background: #FFFFFF;
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.discovered_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 1202px;
+    height: 69px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#discovered_subtext_center {
+    width: 1202px;
+    height: 21px;
+
+    text-align: center;
+}
+
+#discovered_title_center {
+    width: 1202px;
+    height: 40px;
+
+    text-align: center;
+}
+
+.location_cards_row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 1202px;
+    height: 410px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card_frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+
+    width: 601px;
+    height: 410px;
+
+    flex: none;
+    flex-grow: 1;
+}
+
+.card_unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+
+    width: 300.5px;
+    height: 410px;
+
+    flex: none;
+    flex-grow: 1;
+}
+
+.card_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 268.5px;
+    height: 50.95px;
+
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card_top_title {
+    width: 268.5px;
+    height: 36px;
+
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #434343;
+
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card_description {
+    width: 268.5px;
+    height: 14.95px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #8A53FF;
+
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
