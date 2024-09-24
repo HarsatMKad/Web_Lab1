@@ -21,28 +21,28 @@
     <div class="home_page">
         <header class="header_section">
             <div class="header_element_row">
-                <div id="header_logo">
+                <div class="header_logo">
                     <img src="images/logo/Logo Talking.svg">
                     <img id="travel_logo" src="images/logo/Logo Travel.svg">
                 </div>
 
-                <div id="header_menu_optuons">
-                    <div id="header_links">
-                        <div class="head_links_home">Home</div>
-                        <div class="head_links"><a class="header_decor" href="/story_page.html">Story</a></div>
+                <div class="header_menu_options">
+                    <div class="header_links">
+                        <div class="head_links_home"><a class="header_decor" href="home_page.html">Home</a></div>
+                        <div class="head_links"><a class="header_decor" href="story_page.html">Story</a></div>
                         <div class="head_links">Gallery</div>
                         <div class="head_links">Contact Us</div>
                     </div>
 
                     <hr class="separator">
 
-                    <div id="header_search_icon">
-                        <img src="images/head links/Vector_search.svg">
+                    <div class="header_search_icon">
+                        <img src="images/head links/search_icon.svg">
                     </div>
 
-                    <div id="header_profile">
-                        <img src="images/head links/Vector _account.svg">
-                        <img id="head_account_icon" src="images/head links/Vector_account_head.svg">
+                    <div class="header_profile">
+                        <img src="images/head links/account_icon.svg">
+                        <img id="head_account_icon" src="images/head links/account_icon_head.svg">
                     </div>
                 </div>
             </div>
@@ -59,17 +59,17 @@
                         next blog!</div>
                 </div>
 
-                <div id="call_to_actions_row">
-                    <div id="share_your_story">
+                <div class="call_to_actions_row">
+                    <button class="share_your_story">
                         <p class="white_text">Share your story</p>
-                    </div>
+                    </button>
 
-                    <div id="watch_highlights">
+                    <div class="watch_highlights">
                         <p class="watch_highlights_text">Watch highlights</p>
 
                         <div class="highlights_play">
-                            <img class="highlights_circle" src="images/highlight play/Ellipse 13.svg">
-                            <img class="highlights_poligon" src="images/highlight play/Polygon 1.svg">
+                            <img class="highlights_circle" src="images/highlight play/play_btn_ellipse.svg">
+                            <img class="highlights_poligon" src="images/highlight play/play_btn_polygon.svg">
                         </div>
                     </div>
                 </div>
@@ -91,8 +91,8 @@
 
                 <div class="featured_destination">
                     <div class="highlights_play">
-                        <img class="highlights_circle" src="images/featured play/Ellipse 13.svg">
-                        <img class="highlights_poligon" src="images/featured play/Polygon 1.svg">
+                        <img class="highlights_circle" src="images/featured play/play_btn_ellipse.svg">
+                        <img class="highlights_poligon" src="images/featured play/play_btn_polygon.svg">
                     </div>
                     <div class="featured_destination_text">Watch Now</div>
                 </div>
@@ -157,56 +157,39 @@
 
                     <div class="form_fields">
                         <div class="form_input_container">
-                            <div class="form_input">
-                                <div class="form_input_text">Destination name</div>
-                            </div>
+                            <input class="form_input" placeholder="Destination name"></input>
                         </div>
                         <div class="form_input_container">
-                            <div class="form_input">
-                                <div class="form_input_text">Country of Destination</div>
-                                <div class="dropdown">
-                                    <button class="dropbtn"></button>
-                                    <div class="dropdown-content">
-                                        <p>France</p>
-                                        <p>Spain</p>
-                                        <p>USA</p>
-                                        <p>China</p>
-                                        <p>Germany</p>
-                                        <p>Russia</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <select class="form_input" placeholder="Country of Destination" aria-placeholder="Destination">
+                                <option value="" disabled selected>Country of Destination</option>
+                                <option value="France">France</option>
+                                <option value="Spain">Spain</option>
+                                <option value="USA">USA</option>
+                                <option value="China">China</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Russia">Russia</option>
+                            </select>
                         </div>
                         <div class="form_input_container">
-                            <div class="form_input">
-                                <div class="form_input_text">Your name</div>
-                            </div>
+                            <input class="form_input" placeholder="Your name"></input>
                         </div>
                         <div class="form_input_container">
-                            <div class="form_input">
-                                <div class="form_input_text">Shooting category</div>
-                                <div class="dropdown">
-                                    <button class="dropbtn"></button>
-                                    <div class="dropdown-content">
-                                        <p>Category 1</p>
-                                        <p>Category 2</p>
-                                        <p>Category 3</p>
-                                        <p>Category 4</p>
-                                        <p>Category 5</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <select class="form_input" placeholder="Shooting category" aria-placeholder="Destination">
+                                <option value="" disabled selected>Shooting category</option>
+                                <option value="Category 1">Category 1</option>
+                                <option value="Category 2">Category 2</option>
+                                <option value="Category 3">Category 3</option>
+                                <option value="Category 4">Category 4</option>
+                                <option value="Category 5">Category 5</option>
+                            </select>
                         </div>
                         <div class="form_input_container">
-                            <div class="form_input" id="form_input_big">
-                                <div class="form_input_text" id="form_input_text_big">Describe what kind of photos you
-                                    want to focus on</div>
-                            </div>
+                            <input class="form_input" id="form_input_big" placeholder="Describe what kind of photos you want to focus on"></input>
                         </div>
                     </div>
-                    <div class="form_submit_button">
+                    <button class="form_submit_button">
                         <div class="submit_text">Submit</div>
-                    </div>
+                    </button>
                 </div>
             </div>
             <img width=100% src="images/background/Share_travels_background_image.jpg" alt="">
@@ -230,8 +213,8 @@
                                         the best places to stay that has the best views of this peak...</div>
                                 </div>
                                 <div class="highlights_play">
-                                    <img class="highlights_circle" src="images/featured play/Ellipse 13.svg">
-                                    <img class="highlights_poligon" src="images/featured play/Polygon 1.svg">
+                                    <img class="highlights_circle" src="images/featured play/play_btn_ellipse.svg">
+                                    <img class="highlights_poligon" src="images/featured play/play_btn_polygon.svg">
                                 </div>
                             </div>
                         </div>
@@ -275,8 +258,8 @@
         <footer class="footer_line">
             <div class="footer_cipyright">© 2022, Talking Travel. All Rights Reserved.</div>
             <div class="footer_links">
-                <div class="footer_links_text">Home</div>
-                <div class="footer_links_text">Blog</div>
+                <div class="footer_links_text"><a class="header_decor" href="home_page.html">Home</a></div>
+                <div class="footer_links_text"><a class="header_decor" href="story_page.html">Blog</a></div>
                 <div class="footer_links_text">Gallery</div>
                 <div class="footer_links_text">Contact Us</div>
             </div>

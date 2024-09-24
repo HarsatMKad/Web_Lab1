@@ -4,17 +4,7 @@
     align-items: center;
 }
 
-.test {
-    display: flex;
-    flex: auto;
-}
-
-
 .article_hero_section {
-    /* Article Hero Section */
-
-    /* Auto layout */
-    display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
@@ -24,9 +14,6 @@
 }
 
 .article_hero_header {
-    /* Article Hero Header */
-
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,17 +24,11 @@
 }
 
 .article_title {
-    /* Article Title */
-
-    /* Auto layout */
     display: flex;
     flex-direction: column;
 }
 
 .article_author {
-    /* Article Author */
-
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -55,58 +36,48 @@
 }
 
 .author_text {
-    /* Author Text */
-
-    /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
-    /* Inside auto layout */
     flex: none;
 }
 
 .title_top_text {
-    /* Article Category */
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height */
+
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    color:#8A53FF;
 }
 
 .title_bottom_text {
-    /* Article Title */
-
     font-family: 'Changa One';
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
     line-height: 54px;
-    /* identical to box height, or 108% */
+
     letter-spacing: -0.03em;
 
     color: #434343;
 }
 
 .authro_top_text {
-    /* Darrell Steward */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
 
     color: #495367;
 }
 
 .author_bottob_text {
-    /* Author / Photographer */
     font-family: 'Roboto';
     font-style: italic;
     font-weight: 400;
@@ -117,9 +88,6 @@
 }
 
 .article_hero_video {
-    /* Article Hero Video */
-
-    /* Inside auto layout */
     flex: none;
     order: 1;
     align-self: stretch;
@@ -141,6 +109,7 @@
 
 .play_btn {
     position: absolute;
+    cursor: pointer;
 }
 
 #play_btn_position {
@@ -150,7 +119,6 @@
 }
 
 #article_video_text {
-    /* The Matterhorn */
     margin-top: -140px;
 
     position: absolute;
@@ -177,33 +145,26 @@
 }
 
 .clincher_top_text {
-    /* Clincher Title */
     font-family: 'Changa One';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 36px;
-    /* identical to box height, or 112% */
 
     color: #434343;
 }
 
 .clincher_bottom_text {
-    /* Clincher Text */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
 
     color: #434343;
 }
 
 .callout_section {
-    /* Callout Section */
-
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -214,15 +175,11 @@
 }
 
 .callout_images {
-    /* Callout images */
-
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 15px;
 
-    /* Inside auto layout */
     flex: none;
     width: 50%;
     height: 400px;
@@ -241,9 +198,6 @@
 }
 
 .callout_images_column {
-    /* Callout images column */
-
-    /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -254,9 +208,6 @@
 }
 
 .callout_copywrityng {
-    /* Callout Copywriting */
-
-    /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -275,15 +226,11 @@
     font-weight: 400;
     font-size: 1vw;
     line-height: 26px;
-    /* or 162% */
 
     color: #434343;
 }
 
 .callout_title {
-    /* Callout title */
-
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -291,27 +238,24 @@
 }
 
 .callout_title_text {
-    /* One of the best hikes we’ve done so far... */
-
     font-family: 'Changa One';
     font-style: italic;
     font-weight: 400;
     font-size: 3.1vw;
     line-height: 47px;
-    /* or 112% */
+
     letter-spacing: -0.04em;
 
     color: #434343;
 }
 
 .callout_button {
-    /* View full gallery button */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
+    
     text-align: center;
 
     color: #FFFFFF;
@@ -329,16 +273,12 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     width: 62%;
 
     color: #434343;
 }
 
 .highlights_section {
-    /* Highlights Section */
-
-    /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -356,15 +296,11 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 36px;
-    /* identical to box height, or 112% */
 
     color: #434343;
 }
 
 .highlights_row {
-    /* Highlights Row */
-
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -374,9 +310,6 @@
 }
 
 .highlights_card {
-    /* Highlight Card */
-
-    /* Auto layout */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -391,7 +324,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    /* identical to box height, or 157% */
 
     color: #828181;
 }
@@ -418,7 +350,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
 
     color: #434343;
 }

@@ -2,10 +2,16 @@ body {
     min-width: 1000px;
 }
 
-.header_section {
-    /* Header Section */
+*{
+    font-family: 'Roboto';
+}
 
-    /* Auto layout */
+button{
+    border:#434343;
+    cursor: pointer;
+}
+
+.header_section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +23,6 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
 
-    /* Inside auto layout */
     flex: none;
     order: 0;
     align-self: stretch;
@@ -25,9 +30,6 @@ body {
 }
 
 .header_element_row {
-    /* Header Elements Row */
-
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,7 +39,6 @@ body {
     min-width: 400px;
     height: 64px;
 
-    /* Inside auto layout */
     flex: none;
     order: 0;
     align-self: stretch;
@@ -45,21 +46,17 @@ body {
 }
 
 .header_logo {
-    /* Header Logo */
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    cursor: pointer;
 
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
 .header_menu_row {
-    /* Header Menu Options Row */
-
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -70,16 +67,12 @@ body {
     width: 100%;
     height: 40%;
 
-    /* Inside auto layout */
     order: 1;
     flex-grow: 0;
 
 }
 
 .header_links {
-    /* Header Menu Options Row */
-
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -90,15 +83,12 @@ body {
 }
 
 .header_separator {
-    /* Seperator */
-
     width: 23.6px;
     margin: 15px;
 
     border: 1px solid #EEEEEE;
     transform: rotate(90deg);
 
-    /* Inside auto layout */
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -107,12 +97,14 @@ body {
 .header_serch_icon {
     height: 96%;
     order: 3;
+    cursor: pointer;
 }
 
 .header_profile_icon {
     height: 96%;
     order: 4;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 #header_profile_head {
@@ -122,9 +114,9 @@ body {
 }
 
 .header_text_style {
-    /* Contact Us */
     font-family: 'Roboto';
     color: #495367;
+    cursor: pointer;
 }
 
 #color_purple {

@@ -4,9 +4,6 @@ footer {
 }
 
 .footer_meny {
-    /* Footer */
-
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,7 +14,6 @@ footer {
     height: 80px;
 
     background: #FFFFFF;
-
 }
 
 .copyright_info {
@@ -45,6 +41,7 @@ footer {
     font-size: 14px;
     line-height: 16px;
     text-align: center;
+    cursor: pointer;
 
     color: #939EB4;
 }

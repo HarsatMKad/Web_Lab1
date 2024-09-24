@@ -1,6 +1,4 @@
 .featured_destination_section {
-    /* Featured Destination Section */
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -11,7 +9,6 @@
 
     background-color: #FFFFFF;
 
-    /* Inside auto layout */
     flex: none;
     order: 2;
     align-self: stretch;
@@ -19,9 +16,6 @@
 }
 
 .featured_image_container {
-    /* Featured Image Container */
-
-    /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -31,17 +25,12 @@
     width: 580px;
     height: 338px;
 
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 1;
 }
 
 .featured_destination_blurb {
-    /* Featured Destination Blurb */
-
-    /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -51,17 +40,12 @@
     width: 580px;
     height: 292px;
 
-
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 1;
 }
 
 .featured_destination_copywriting {
-    /* Featured Destination Copywriting */
-
-    /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -71,8 +55,6 @@
     width: 520px;
     height: 172px;
 
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     align-self: stretch;
@@ -80,8 +62,6 @@
 }
 
 .featured_text_category {
-    /* Featured Destination Category */
-
     width: 520px;
     height: 21px;
 
@@ -90,14 +70,11 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height */
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
     color: #8A53FF;
 
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     align-self: stretch;
@@ -105,8 +82,6 @@
 }
 
 .featured_text_title {
-    /* Featured destination Title */
-
     width: 520px;
     height: 36px;
 
@@ -115,12 +90,9 @@
     font-weight: 400;
     font-size: 39px;
     line-height: 36px;
-    /* identical to box height, or 92% */
 
     color: #434343;
 
-
-    /* Inside auto layout */
     flex: none;
     order: 1;
     align-self: stretch;
@@ -128,8 +100,6 @@
 }
 
 .featured_text_description {
-    /* Featured Destination description */
-
     width: 520px;
     height: 99px;
 
@@ -138,34 +108,26 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
-    /* or 183% */
 
     color: #434343;
 
-
-    /* Inside auto layout */
     flex: none;
     order: 2;
     align-self: stretch;
     flex-grow: 0;
 }
 
-#featured_destination {
-    /* Featured Destination CTA */
-
+.featured_destination {
     width: 143.77px;
     height: 36px;
 
-
-    /* Inside auto layout */
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
 .featured_destination_text {
-    /* Watch Now */
-
     position: absolute;
     margin-left: 50px;
     margin-top: -35px;
@@ -175,7 +137,5 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 36px;
-    /* identical to box height, or 225% */
-
     color: #8A53FF;
 }
